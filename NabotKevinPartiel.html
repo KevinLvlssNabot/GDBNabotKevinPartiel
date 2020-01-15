@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<link href="NabotKevinPartiel.css" media="all" rel="stylesheet" type="text/css"/>
+			<meta charset="UTF-8"/>
+			<title>Mastermind Nabot Kévin</title>
+	</head>
+			<body>
+				<!-- Grille de jeu -->
+				<div class="plateau">
+					<div class="ensembleTentative1">
+							<div class ="tentatives" classe="premiereCase" id="1"></div>
+							<div class ="tentatives" classe="deuxiemeCase" id="2"></div>
+							<div class ="tentatives" classe="troisiemeCase" id="3"></div>
+							<div class ="tentatives" classe="quatriemeCase" id="4"></div>
+							<div class ="tentatives" classe="cinquièmeCase" id="5"></div>
+
+							<div class="reponse1" id="6"></div>
+							<div class="reponse2" id="7"></div>
+							<div class="reponse3" id="8"></div>
+							<div class="reponse4" id="9"></div>
+							<div class="reponse5" id="10"></div>
+						</div>
+						<!-- Les noms "premierCase etc" servent à comparer les couleurs avec celles de la génération aléatoire-->
+						<div class="ensembleTentative2">
+								<div class ="tentatives" classe="premiereCase" id="21"></div>
+								<div class ="tentatives" classe="deuxiemeCase" id="22"></div>
+								<div class ="tentatives" classe="troisiemeCase" id="23"></div>
+								<div class ="tentatives" classe="quatriemeCase" id="24"></div>
+								<div class ="tentatives" classe="cinquièmeCase" id="25"></div>
+
+								<div class="reponse1" id="26"></div>
+								<div class="reponse2" id="27"></div>
+								<div class="reponse3" id="28"></div>
+								<div class="reponse4" id="29"></div>
+								<div class="reponse5" id="20"></div>
+							</div>
+
+							<div class="ensembleTentative3">
+									<div class ="tentatives" classe="premiereCase" id="31"></div>
+									<div class ="tentatives" classe="deuxiemeCase" id="32"></div>
+									<div class ="tentatives" classe="troisiemeCase" id="33"></div>
+									<div class ="tentatives" classe="quatriemeCase" id="34"></div>
+									<div class ="tentatives" classe="cinquièmeCase" id="35"></div>
+
+									<div class="reponse1" id="36"></div>
+									<div class="reponse2" id="372"></div>
+									<div class="reponse3" id="383"></div>
+									<div class="reponse4" id="39"></div>
+									<div class="reponse5" id="30"></div>
+								</div>
+
+								<div class="ensembleTentative4">
+										<div class ="tentatives" classe="premiereCase" id="41"></div>
+										<div class ="tentatives" classe="deuxiemeCase" id="42"></div>
+										<div class ="tentatives" classe="troisiemeCase" id="43"></div>
+										<div class ="tentatives" classe="quatriemeCase" id="44"></div>
+										<div class ="tentatives" classe="cinquièmeCase" id="45"></div>
+
+										<div class="reponse1" id="461"></div>
+										<div class="reponse2" id="472"></div>
+										<div class="reponse3" id="48"></div>
+										<div class="reponse4" id="49"></div>
+										<div class="reponse5" id="40"></div>
+									</div>
+
+									<div class="ensembleTentative5">
+											<div class ="tentatives" classe="premiereCase" id="51"></div>
+											<div class ="tentatives" classe="deuxiemeCase" id="52"></div>
+											<div class ="tentatives" classe="troisiemeCase" id="53"></div>
+											<div class ="tentatives" classe="quatriemeCase" id="54"></div>
+											<div class ="tentatives" classe="cinquièmeCase" id="55"></div>
+
+											<div class="reponse1" id="56"></div>
+											<div class="reponse2" id="57"></div>
+											<div class="reponse3" id="58"></div>
+											<div class="reponse4" id="59"></div>
+											<div class="reponse5" id="50"></div>
+										</div>
+
+										<div class="ensembleTentative6">
+												<div class ="tentatives" classe="premiereCase" id="61"></div>
+												<div class ="tentatives" classe="deuxiemeCase" id="62"></div>
+												<div class ="tentatives" classe="troisiemeCase" id="63"></div>
+												<div class ="tentatives" classe="quatriemeCase" id="64"></div>
+												<div class ="tentatives" classe="cinquièmeCase" id="65"></div>
+
+												<div class="reponse1" id="66"></div>
+												<div class="reponse2" id="67"></div>
+												<div class="reponse3" id="68"></div>
+												<div class="reponse4" id="69"></div>
+												<div class="reponse5" id="60"></div>
+											</div>
+
+											<div class="ensembleTentative7">
+													<div class ="tentatives" classe="premiereCase" id="71"></div>
+													<div class ="tentatives" classe="deuxiemeCase" id="72"></div>
+													<div class ="tentatives" classe="troisiemeCase" id="73"></div>
+													<div class ="tentatives" classe="quatriemeCase" id="74"></div>
+													<div class ="tentatives" classe="cinquièmeCase" id="75"></div>
+
+													<div class="reponse1" id="76"></div>
+													<div class="reponse2" id="77"></div>
+													<div class="reponse3" id="78"></div>
+													<div class="reponse4" id="79"></div>
+													<div class="reponse5" id="70"></div>
+												</div>
+
+												<div class="ensembleTentative8">
+														<div class ="tentatives" classe="premiereCase" id="81"></div>
+														<div class ="tentatives" classe="deuxiemeCase" id="82"></div>
+														<div class ="tentatives" classe="troisiemeCase" id="83"></div>
+														<div class ="tentatives" classe="quatriemeCase" id="84"></div>
+														<div class ="tentatives" classe="cinquièmeCase" id="85"></div>
+
+														<div class="reponse1" id="86"></div>
+														<div class="reponse2" id="87"></div>
+														<div class="reponse3" id="88"></div>
+														<div class="reponse4" id="89"></div>
+														<div class="reponse5" id="80"></div>
+													</div>
+
+													<div class="ensembleTentative9">
+															<div class ="tentatives" classe="premiereCase" id="91"></div>
+															<div class ="tentatives" classe="deuxiemeCase" id="92"></div>
+															<div class ="tentatives" classe="troisiemeCase" id="93"></div>
+															<div class ="tentatives" classe="quatriemeCase" id="94"></div>
+															<div class ="tentatives" classe="cinquièmeCase" id="95"></div>
+
+															<div class="reponse1" id="96"></div>
+															<div class="reponse2" id="97"></div>
+															<div class="reponse3" id="98"></div>
+															<div class="reponse4" id="99"></div>
+															<div class="reponse5" id="90"></div>
+														</div>
+
+														<div class="ensembleTentative10">
+																<div class ="tentatives" classe="premiereCase" id="101"></div>
+																<div class ="tentatives" classe="deuxiemeCase" id="102"></div>
+																<div class ="tentatives" classe="troisiemeCase" id="103"></div>
+																<div class ="tentatives" classe="quatriemeCase" id="104"></div>
+																<div class ="tentatives" classe="cinquièmeCase" id="105"></div>
+
+																<div class="reponse1" id="106"></div>
+																<div class="reponse2" id="107"></div>
+																<div class="reponse3" id="108"></div>
+																<div class="reponse4" id="109"></div>
+																<div class="reponse5" id="100"></div>
+															</div>
+
+															<div class="ensembleTentative">
+																	<div class ="tentatives" classe="premiereCase" id="111"></div>
+																	<div class ="tentatives" classe="deuxiemeCase" id="112"></div>
+																	<div class ="tentatives" classe="troisiemeCase" id="113"></div>
+																	<div class ="tentatives" classe="quatriemeCase" id="114"></div>
+																	<div class ="tentatives" classe="cinquièmeCase" id="115"></div>
+
+																	<div class="reponse1" id="116"></div>
+																	<div class="reponse2" id="117"></div>
+																	<div class="reponse3" id="118"></div>
+																	<div class="reponse4" id="119"></div>
+																	<div class="reponse5" id="110"></div>
+																</div>
+
+																<div class="ensembleTentative12">
+																		<div class ="tentatives" classe="premiereCase"id="121"></div>
+																		<div class ="tentatives" classe="deuxiemeCase"id="122"></div>
+																		<div class ="tentatives" classe="troisiemeCase"id="123"></div>
+																		<div class ="tentatives" classe="quatriemeCase"id="124"></div>
+																		<div class ="tentatives" classe="cinquièmeCase"id="125"></div>
+
+																		<div class="reponse1" id="126"></div>
+																		<div class="reponse2" id="127"></div>
+																		<div class="reponse3" id="128"></div>
+																		<div class="reponse4" id="129"></div>
+																		<div class="reponse5" id="120"></div>
+																	</div>
+																	<br />
+																	<br />
+																	<!-- Explications des règles et nombre de tentatives -->
+																	<u>Le but du jeu</u> : trouver la combinaison secrètes de couleurs générée aléatoirement, vous pourrez
+																	choisir une case en cliquant dessus et en indiquant le chiffre de la couleur que vous souhaitez, vous avez 12 essais, bonne chance.
+																	<br />
+																	<div class="couleursDisponibles"<br />Les couleurs possibles sont : <br /> - le bleu, le rouge, le vert clair, le jaune,
+																	le violet, le marron, le orange et le vert foncé.</div>
+																	<br />
+																<div class="nbreTentativesRestantes">Nombre de tentatives restantes : 12</div>
+																<div class ="divInvisibleDeComparaison">
+																<div class ="cachée" id="caseUne"></div>
+																<div class ="cachée" id="caseDeux"></div>
+																<div class ="cachée" id="caseTrois"></div>
+																<div class ="cachée" id="caseQuatre"></div>
+																<div class ="cachée" id="caseCinq"></div>
+															</div>
+				</div>
+
+<!-- Bouton pour valider le choix -->
+<button class="bouton" button id="validation">VALIDER</div>
+
+
+
+				<script src="http://code.jquery.com/jquery-3.4.1.js" ></script>
+				<script src="NabotKevinPartiel.js"></script>
+			</body>
+<html>

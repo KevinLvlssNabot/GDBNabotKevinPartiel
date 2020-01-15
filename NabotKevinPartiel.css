@@ -1,0 +1,94 @@
+/* Bordure du plateau */
+.plateau{
+  border: solid black 5px;
+  height: auto;
+  width: 470px;
+}
+
+/* Prend la couleur blanc si mal placé */
+.malplacé{
+  background-color: white;
+}
+/*Prend la couleur noir si bien placé */
+.bienPlacé{
+  background-color: black;
+}
+
+/* Espace de tentative grisé avant le choix des couleurs */
+.tentatives {
+  border: black solid 1px;
+  border-radius: 100px;
+  height: 20px;
+  width: 20px;
+  display: inline-flex;
+  margin: 10px;
+  background-color: grey;
+  cursor: pointer;
+}
+
+/* Espace de réponse pour annoncer au joueur s'il a bien ou non placé ses couleurs */
+.reponse, .reponse1, .reponse2, .reponse3, .reponse4, .reponse5{
+  border: black solid 1px;
+  border-radius: 100px;
+  height: 10px;
+  width: 10px;
+  display: inline-flex;
+  margin: 10px;
+  margin-left: 20px;
+  background-color: grey;
+}
+
+.cachée{
+  visibility: hidden;
+  border: black solid 1px;
+  border-radius: 100px;
+  height: 10px;
+  width: 10px;
+  display: inline-flex;
+  margin: 10px;
+  margin-left: 20px;
+  background-color: grey;
+}
+
+
+/* Ajout de classes pour parcourir les couleurs */
+.colorBlue{
+  background-color: blue;
+}
+
+
+.colorRed{
+  background-color: red;
+}
+
+.colorVertClair{
+  background-color: #b0f2b6;
+}
+
+.colorYellow{
+  background-color: yellow;
+}
+
+.colorPurple{
+  background-color: purple;
+}
+
+.colorBrown{
+  background-color: brown;
+}
+
+.colorOrange{
+  background-color: #FFA500;
+}
+
+.colorVertFonce{
+  background-color: #22780f;
+}
+
+/* Bouton */
+#validation{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%
+
+}
